@@ -12,6 +12,15 @@ void dosen::setPendidikan(int pendidikan)
 {
 	this->pendidikan = pendidikan;
 }
+std::string dosen::getNPP()
+{
+	return this->npp;
+}
+
+std::string dosen::getDepartemen()
+{
+	return this->departemen;
+}
 
 int dosen::getPendidikan()
 {

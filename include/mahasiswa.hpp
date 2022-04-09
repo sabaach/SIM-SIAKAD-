@@ -22,6 +22,10 @@ public:
 	void setSemester(int semesterke);
 	int getSemester();
 
+	std::string getNRP();
+	std::string getDepartemen();
+	int getTahunMasuk();
+
 	void setSKSLulus(int skslulus);
 	int getSKSLulus();
 

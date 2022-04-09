@@ -13,6 +13,8 @@ private:
 public:
 	dosen(std::string id, std::string nama, int dd, int mm, int yy, std::string npp, std::string departemen, int pendidikan);
 
+	std::string getDepartemen();
+	std::string getNPP();
 	void setPendidikan(int pendidikan);
 	int getPendidikan();
 };
